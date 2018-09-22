@@ -1,0 +1,93 @@
+/*// Q1 Audrey Hepburn isn't her real name. She was born Audrey Kathleen Ruston and didn't start calling herself Audrey Hepburn until 1948.
+//Q2 She spoke five languages. She could speak English, Spanish, French, Dutch, and Italian.
+//Q3  She wasn't Truman Capote's first choice for Holly Golightly. In fact, the author had his heart set on Marilyn Monroe for the part
+Breakfast at Tiffany's
+//Q4 Hubert de Givenchy designed Holly's famous little black dress for Breakfast
+//Q5  Oscar (best actress in Roman Holiday)
+
+
+ color - right answer - 97E68F
+ color wrong answer - FD9DA2
+
+
+//стиль:
+1) фон, окно посередине, + кнопка начать игру ;
+2)можно поменять фон, отсчет наверху 1/5, вопрос, анимашка, варинаты - без кнопок
++ ховер, + открытие окна с правильным ответом(бонус)Б правильный ответ подсвечивается зеленым, неправтльный красным
++ анимашку(с правильного ответа)
+
+3) результат окошко- становится прозрачным в бело рамке
++ кнопка Играть еще раз
+font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+**/
+*{
+	font-family: 'Open Sans', sans-serif;	
+}
+body{
+	background: url('../img/bg.jpg') top no-repeat;
+    background-size: cover;
+	width:100%;
+	height: 100vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.hidden{
+	display:none;
+}
+.correct{
+	background-color:#97E68F;
+}
+.wrong{
+	background-color:#FD9DA2;
+}
+h1,h2, h3{
+	font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    text-align: left;
+}
+h5 .btn-link{
+	color:black;
+}
+h5 .btn-link:hover{
+	color:black;
+	text-decoration: none;
+}
+.card-header:hover{
+	background-color: #AEE6E1;
+	cursor: pointer;
+}
+.start, .start:hover{
+	background-color: #81D8D0;
+	color:black;
+    padding: 13.5px 40px;
+    font-size: 15px;
+    line-height: 1.3rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    border:black solid 1px;
+}
+.start:hover, .start:active{
+background-color: #AEE6E1;
+}
+.q_container{
+	min-width: 650px;
+    max-width: 650px;
+    padding: 20px 35px 18px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+}
+.list-group-item{
+	text-align: left;
+}
+div#clock {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+}

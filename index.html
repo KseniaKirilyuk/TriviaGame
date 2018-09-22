@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body class="text-center">
+	<div class = 'container q_container'>
+
+	<section id='front_page'>
+		<h1>Audrey Hepburn & trivia</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet neque reiciendis nostrum similique aspernatur ipsam optio nulla, ad quisquam earum! Quo culpa quis, ad natus, expedita incidunt! Alias, quas impedit accusantium facere, quia saepe consectetur deserunt ut ea! Nam repellat asperiores blanditiis iusto cupiditate, sed.</p>
+		<button type="button" class="start btn btn-sm btn-outline-* ">Start</button>
+	</section>
+	
+	<section id="question_page" class="hidden">
+		<h3>1/5</h3>
+		<h2 id="main_question">What is Audrey Hepburn's real name?</h2>
+		
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="chose1">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Audrey Kathleen Ruston
+        </button>
+      </h5>
+    </div>
+
+    <div id="chose1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body answer1">
+        She was born Audrey Kathleen Ruston and didn't start calling herself Audrey Hepburn until 1948.
+        <img src="assets/img/O_smile.gif" alt="Hepburn">
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="chose2">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Audrey van Heemstra
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="chose2" data-parent="#accordionExample">
+      <div class="card-body answer2">
+		Ella van Heemstra was the Audrey's mother.
+		<img src="assets/img/O_smile.gif" alt="Hepburn">
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="chose3">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Emma Kathleen Ferrer
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="chose3" data-parent="#accordionExample">
+      <div class="card-body answer3">
+        No, this is the granddaughter of actors Audrey Hepburn and Mel Ferrer.
+        <img src="assets/img/O_smile.gif" alt="Hepburn">
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div id="clock"></div>
+	<button id="next" type="button" class="start btn btn-sm btn-outline-* hidden">Next</button>
+	</section>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
